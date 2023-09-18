@@ -1,41 +1,58 @@
 body {
         font-family: 'Roboto', sans-serif;
+        color: #2E2F42;
 }
 .header-link {
     color:#2E2F42;
         font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
+        line-height:1,166;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
 .header-logo-blu {
     color:#4D5AE5;       
 }
+
+
+
 .header-navigation {
     color:#2E2F42;
         font-family:Roboto;
         font-size:16px;
         font-weight:500;
-        line-height:24px;
+        line-height: 1,5;
         letter-spacing:0.32px;
 }
+
+.header-menu-list .link hover,
+.header-menu-list .link focus {
+    color:#404BBF
+}
+
+
 .address-list {
     color:#434455;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1,5;
         letter-spacing: 0.32px;
 }
+
+.address-list .address-link hover,
+.address-list .address-link focus {
+color: #404BBF
+}
+
 .solutions-tite {
     color:#FFF;
         text-align: center;
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 60px;
+        line-height: 1,07;
         letter-spacing: 1.12px;
 }
 
@@ -44,22 +61,23 @@ body {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1,5;
         letter-spacing: 0.64px;
 }
+
 .instruments-name {
     color:#2E2F42;
     font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1,2;
         letter-spacing: 0.4px;
 }
 .instruments-text {
     color: #434455;
         font-family: Roboto;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1,5;
         letter-spacing: 0.32px;
 }
 .team-title {
@@ -68,7 +86,7 @@ body {
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1,11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
@@ -78,7 +96,7 @@ body {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1,2;
         letter-spacing: 0.4px;
 }
 .team-occup {
@@ -86,7 +104,7 @@ body {
         text-align: center;
         font-family: Roboto;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1,5;
         letter-spacing: 0.32px;
 }
 .portfolio-title {
@@ -95,7 +113,7 @@ body {
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1,11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
@@ -104,26 +122,35 @@ body {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1,2;
         letter-spacing: 0.4px;
 }
 .portfolio-option {
     color:#434455;
         font-family: Roboto;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1,5;
         letter-spacing: 0.32px;
 }
 .footer-link {
-    color:#F4F4FD;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
+
 .footer-link-blu {
 color:#4D5AE5;
+}
 
+.footer-text {
+    color:#F4F4FD;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
 }
