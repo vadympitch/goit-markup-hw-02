@@ -3,42 +3,47 @@ body {
         color:#434455;
         background-color:#FFFFFF
 }
-.header-link {
-    color:#2E2F42;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 700;
-        line-height:1,166;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-}
-.header-logo-blu {
-    color:#4D5AE5;       
-}
-
-
 
 .header-navigation {
     color:#2E2F42;
         font-family:Roboto;
         font-size:16px;
         font-weight:500;
-        line-height: 1,5;
+        line-height:1.5;
         letter-spacing:0.32px;
 }
 
-.header-menu-list .link hover,
-.header-menu-list .link focus {
-    color:#404BBF
+.header-link {
+    color:#2e2f42;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height:1.5;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+.header-logo-blu {
+    color:#2e2f42;       
+}
+
+
+
+
+.header-menu-list .link :hover {
+    color:#404bbf;
+}
+.header-menu-list .link :focus {
+    color: #404bbf;
 }
 
 
 .address-list {
-    color:#434455;
+    color: #434455;
         font-family: Roboto;
         font-size: 16px;
+        font-style: normal;
         font-weight: 400;
-        line-height: 1,5;
+        line-height:1.5;
         letter-spacing: 0.32px;
 }
 
@@ -47,23 +52,33 @@ body {
 color: #404BBF
 }
 
+.solutions {
+    background-color:#2e2f42;
+}
 .solutions-tite {
     color:#FFF;
         text-align: center;
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1,07;
+        line-height: 1.07;
         letter-spacing: 1.12px;
 }
 
 .solutions-order-btn {
     color:#FFF;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;;
         font-size: 16px;
         font-weight: 500;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.64px;
+        cursor: pointer;
+}
+.solutions-order-btn :hover {
+    background-color:#404BBF
+}
+.solutions-order-btn :focus {
+    background-color: #404BBF
 }
 
 .instruments-name {
@@ -71,15 +86,18 @@ color: #404BBF
     font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 1,2;
+        line-height: 1.2;
         letter-spacing: 0.4px;
 }
 .instruments-text {
     color: #434455;
         font-family: Roboto;
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.32px;
+}
+.team {
+    background-color: #F4F4FD
 }
 .team-title {
     color:#2E2F42;
@@ -87,9 +105,12 @@ color: #404BBF
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 1,11;
+        line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
+}
+.team-list {
+    background-color: #FFFFFF
 }
 .team-name {
     color:  #2E2F42;
@@ -97,7 +118,7 @@ color: #404BBF
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 1,2;
+        line-height: 1.2;
         letter-spacing: 0.4px;
 }
 .team-occup {
@@ -105,7 +126,7 @@ color: #404BBF
         text-align: center;
         font-family: Roboto;
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 .portfolio-title {
@@ -114,7 +135,7 @@ color: #404BBF
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 1,11;
+        line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
@@ -123,14 +144,14 @@ color: #404BBF
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 1,2;
+        line-height: 1.2;
         letter-spacing: 0.4px;
 }
 .portfolio-option {
     color:#434455;
         font-family: Roboto;
         font-size: 16px;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 .footer-link {
