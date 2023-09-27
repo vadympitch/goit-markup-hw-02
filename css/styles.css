@@ -1,184 +1,181 @@
 body {
-        font-family: 'Roboto', sans-serif;
-        color:#434455;
-        background-color:#FFFFFF
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .header-navigation {
-    color:#2E2F42;
-        font-family:Roboto;
-        font-size:16px;
-        font-weight:500;
-        line-height:1.5;
-        letter-spacing:0.32px;
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
-.header-logo {
-    color: #4d5ae5;
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-}
+
 .header-link {
-    color:#2e2f42;
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height:1.5;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
-
-
-
+.header-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 
 .header-menu-list .link :hover {
-    color:#404bbf;
+  color: #404bbf;
 }
 .header-menu-list .link :focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
-
 .address-list {
-    color: #434455;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height:1.5;
-        letter-spacing: 0.32px;
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .address-list .address-link hover,
 .address-list .address-link focus {
-color: #404BBF
+  color: #404bbf;
 }
 
 .solutions {
-    background-color:#2e2f42;
+  background-color: #2e2f42;
 }
 .solutions-tite {
-    color:#FFF;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 1.12px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
 }
 
 .solutions-order-btn {
-    color:#FFF;
-        font-family: 'Roboto', sans-serif;;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.64px;
-        cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
 }
 .solutions-order-btn :hover {
-    background-color:#404BBF
+  background-color: #404bbf;
 }
 .solutions-order-btn :focus {
-    background-color: #404BBF
+  background-color: #404bbf;
 }
 
 .instruments-name {
-    color:#2E2F42;
-    font-family: Roboto;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.4px;
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 .instruments-text {
-    color: #434455;
-        font-family: Roboto;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .team {
-    background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
 .team-title {
-    color:#2E2F42;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 .team-list {
-    background-color: #FFFFFF
+  background-color: #ffffff;
 }
 .team-name {
-    color:  #2E2F42;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.4px;
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 .team-occup {
-    color: #434455;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
+  color: #434455;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .portfolio-title {
-    color:#2E2F42;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 .portfolio-name {
-    color:#2E2F42;
-        font-family: Roboto;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.4px;
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 .portfolio-option {
-    color:#434455;
-        font-family: Roboto;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 .footer-link {
-color: #F4F4FD;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .footer-link-blu {
-color:#4D5AE5;
+  color: #4d5ae5;
 }
 
 .footer-text {
-    color:#F4F4FD;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
