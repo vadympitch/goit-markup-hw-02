@@ -18,7 +18,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -32,11 +32,13 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
 }
-
-.header-menu-list .link :hover {
+.header-menu-list .menu-link {
+  color: #2e2f42;
+}
+.header-menu-list .menu-link:hover {
   color: #404bbf;
 }
-.header-menu-list .link :focus {
+.header-menu-list .menu-link:focus {
   color: #404bbf;
 }
 .address {
@@ -50,9 +52,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-
-.address-list .address-link :hover,
-.address-list .address-link :focus {
+.address-list .address-link {
+  color: #434455;
+}
+.address-list .address-link:hover,
+.address-list .address-link:focus {
   color: #404bbf;
 }
 
@@ -79,10 +83,10 @@ body {
   letter-spacing: 0.64px;
   cursor: pointer;
 }
-.solutions-order-btn :hover {
+.solutions-order-btn:hover {
   background-color: #404bbf;
 }
-.solutions-order-btn :focus {
+.solutions-order-btn:focus {
   background-color: #404bbf;
 }
 
@@ -114,9 +118,10 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.team-list {
+.team-list .team-item {
   background-color: #ffffff;
 }
+
 .team-name {
   color: #2e2f42;
   text-align: center;
