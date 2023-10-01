@@ -4,15 +4,6 @@ body {
   background-color: #ffffff;
 }
 
-.header-navigation {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
 .header-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -21,36 +12,42 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .header-logo-bold {
   color: #2e2f42;
 }
 .header-menu-list {
+  list-style-type: none;
+}
+.menu-link {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  list-style-type: none;
+  text-decoration: none;
 }
-.header-menu-list .menu-link {
-  color: #2e2f42;
-}
-.header-menu-list .menu-link:hover {
+
+.menu-link:hover {
   color: #404bbf;
 }
-.header-menu-list .menu-link:focus {
+
+.menu-link:focus {
   color: #404bbf;
 }
 .address {
   font-style: normal;
 }
-.address-list {
-  color: #434455;
-  font-family: Roboto;
+
+.address-link {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  list-style-type: none;
+  text-decoration: none;
 }
 .address-list .address-link {
   color: #434455;
@@ -62,11 +59,11 @@ body {
 
 .solutions {
   background-color: #2e2f42;
+  list-style-type: none;
 }
 .solutions-tite {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -90,17 +87,17 @@ body {
   background-color: #404bbf;
 }
 
-.instruments-name {
+.instruments-item {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  list-style-type: none;
+  text-decoration: none;
 }
 .instruments-text {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -111,12 +108,14 @@ body {
 .team-title {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+.team-item {
+  list-style-type: none;
 }
 .team-list .team-item {
   background-color: #ffffff;
@@ -125,7 +124,6 @@ body {
 .team-name {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -134,7 +132,6 @@ body {
 .team-occup {
   color: #434455;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -142,16 +139,18 @@ body {
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
+.portfolio-item {
+  list-style-type: none;
+}
 .portfolio-name {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -159,7 +158,6 @@ body {
 }
 .portfolio-option {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -175,6 +173,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .footer-link-blu {
@@ -183,7 +182,6 @@ body {
 
 .footer-text {
   color: #f4f4fd;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
